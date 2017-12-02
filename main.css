@@ -9,10 +9,10 @@ body{
         visibility: hidden;
     }
 
-    .emblem{
+ /*   .emblem{
     text-align: center;
     height:180px;
-    }
+    }*/
 
     .nav-name{
         text-align: left;
@@ -26,7 +26,7 @@ body{
 @media only screen and (min-width:780px){
    .name{
         padding-right: 30px;
-        padding-top: 50px;
+       /* padding-top: 50px;*/
         color: #cc1313;
 
    }
@@ -42,7 +42,7 @@ body{
 }
 
 .banner{
-    height:190px;
+    height:100px;
 
 
 }
@@ -72,3 +72,11 @@ body{
     background-color: #cc1313
 }
 .navbar-nav > li > .dropdown-menu :hover{ background-color: #cc1313; }
+.img-container{
+    height:500px;
+}
+.carousel-inner{
+    height:500px;
+    width: 80%;
+    margin: auto;
+}
