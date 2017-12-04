@@ -121,7 +121,8 @@ body{
   background-color: #211C1B;
   border-color: #E8E7F0;
   border-radius: 5px;
-  margin-bottom: 15px
+  margin-bottom: 15px;
+  font-family: Spectral;
 }
 
 .btn-sample:hover,
@@ -170,20 +171,55 @@ fieldset[disabled] .btn-sample.active {
 }
 
 #mail{
-  color:#cc1313;
+
   padding-bottom: 20px;
 
 }
 
 #face{
-  color:#cc1313;
+
   padding-bottom: 20px;
 }
 #phone{
-  color:#cc1313;
+
   padding-bottom: 20px;
 }
 #twitter{
-  color:#cc1313;
+
   padding-bottom: 20px;
 }
+.trans{
+   transition: all .2s ease-in-out;
+     color:#cc1313;
+   }
+
+
+.trans:hover{  transform: scale(1.1);
+               color: #211C1B;
+  }
+.base{
+  background-color: #fff;
+  height: 200px;
+  padding-top: 3%;
+  color: #cc1313;
+}
+ul { list-style-type: none;
+
+       }
+
+.sel:hover{ color: #211C1B;
+   }
+@media screen and (min-width: 480px){
+
+    .alignment{
+      text-align: center;
+    }
+
+}
+@media screen and (max-width: 480px){
+    .alignment{
+      text-align: left;
+    }
+}
+
+
