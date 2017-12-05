@@ -167,6 +167,7 @@ fieldset[disabled] .btn-sample.active {
 .footer{
   background-color: #AFAFAF;
   padding-top: 3.5%;
+  padding-bottom: 2%;
 
 }
 
@@ -358,25 +359,26 @@ padding-right: 20px;
 }
 
 
+.thisButton {
+  background-color:#cc1313;
+  -moz-border-radius:28px;
+  -webkit-border-radius:28px;
+  border-radius:8px;
+  border:1px solid #cc1313;
+  display:inline-block;
+  cursor:pointer;
+  color:#fff;
+  font-family:'Lato', sans-serif;
+  font-size:22px;
+  padding:6px 6px;
+  text-decoration:none;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.thisButton:hover {
+  color: #cc1313;
+  background-color:#fff;
+  border-color:#cc1313;
+}
 
 
 .myButton {
@@ -390,7 +392,7 @@ padding-right: 20px;
   color:#cc1313;
   font-family:'Lato', sans-serif;
   font-size:14px;
-  padding:6px 6px;
+  padding:6px 6px 6px 6px;
   text-decoration:none;
 
 }
@@ -398,4 +400,8 @@ padding-right: 20px;
   color: #fff;
   background-color: #cc1313;;
   border-color: #fff;
+}
+.buttcontrol{
+  padding-right: 30px;
+  padding-left: 30px;
 }
