@@ -264,7 +264,7 @@ ul { list-style-type: none;
 .about
 {
   color: #cc1313;
-  padding-bottom: 5%;
+  padding-bottom: 1%;
 }
 @media screen and (min-width:768px)
 {
@@ -300,4 +300,102 @@ sep {
 .tweet{
 color:#1dcaff;
 padding-right: 20px;
+}
+.bod-ff{
+  padding-bottom: 2%;
+  text-transform: lowercase;
+}
+/*.prod-im{
+  height:400px
+}*/
+.prod-img{
+  max-width: 70%;
+  max-height: auto;
+}
+.teeny{
+  height: 70px;
+  width:50px;
+
+}
+.small{
+  max-width:100%;
+  height: auto;
+}
+.dress-box{
+
+  padding-top: 10vh;
+  display: inline-flex;
+}
+.prod-title{
+   color: #cc1313;
+}
+.palette {
+  display: inline-flex;
+  width: 15px;
+  height: 15px;
+  margin: 4px;
+  border: 1px solid rgba(0, 0, 0, .2);
+}
+.silver {
+  background: #C0C0C0;
+}
+
+.purple {
+  background: #ab3fdd;
+}
+
+.wine {
+  background: #ae163e;
+}
+.apricot{
+  background:#fbceb1;
+}
+.prod-des{
+  padding-top: 20px;
+}
+.final-des{
+  font-family: 'Lato', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.myButton {
+  background-color:#fff;
+  -moz-border-radius:28px;
+  -webkit-border-radius:28px;
+  border-radius:10px;
+  border:1px solid #cc1313;
+  display:inline-block;
+  cursor:pointer;
+  color:#cc1313;
+  font-family:'Lato', sans-serif;
+  font-size:14px;
+  padding:6px 6px;
+  text-decoration:none;
+
+}
+.myButton:hover {
+  color: #fff;
+  background-color: #cc1313;;
+  border-color: #fff;
 }
