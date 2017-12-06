@@ -9,10 +9,6 @@ body{
         visibility: hidden;
     }
 
- /*   .emblem{
-    text-align: center;
-    height:180px;
-    }*/
 
     .nav-name{
         text-align: left;
@@ -26,7 +22,7 @@ body{
 @media only screen and (min-width:780px){
    .name{
         padding-right: 30px;
-       /* padding-top: 50px;*/
+
         color: #cc1313;
 
    }
@@ -43,8 +39,6 @@ body{
 
 .banner{
     height:100px;
-
-
 }
 
 .name{
@@ -71,6 +65,9 @@ body{
 #hover-3:hover{
     background-color: #cc1313
 }
+#hover-4:hover{
+    background-color: #cc1313;
+    }
 .navbar-nav > li > .dropdown-menu :hover{ background-color: #cc1313; }
 .img-container{
     height:500px;
@@ -103,9 +100,7 @@ body{
   margin-bottom: 15px
 }
 
-/*.project-container{
-  height: 160px;
-}*/
+
 
 .product-dimensions{
   max-width: 70%;
@@ -249,6 +244,7 @@ ul { list-style-type: none;
   transform: perspective( 600px ) rotateY( 180deg );
   background: #D3D3D3; width:240px; height:360px; border-radius: 7px;
   backface-visibility: hidden;
+  font-family:'Lato', sans-serif;
   transition: transform .5s linear 0s;
 }
 .flip3D:hover > .front{
@@ -304,11 +300,10 @@ padding-right: 20px;
 }
 .bod-ff{
   padding-bottom: 2%;
-  text-transform: lowercase;
+
+  font-family:'Lato', sans-serif;
 }
-/*.prod-im{
-  height:400px
-}*/
+
 .prod-img{
   max-width: 70%;
   max-height: auto;
