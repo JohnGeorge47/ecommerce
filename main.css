@@ -296,7 +296,7 @@ ul {
 }
 
 @media screen and (min-width:768px) {
-  sep {
+  .seperate {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -304,7 +304,7 @@ ul {
 }
 
 @media screen and (min-width:768px) {
-  .sep {
+  .seperate {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -397,7 +397,7 @@ ul {
 }
 
 
-.thisButton {
+.this-button {
   background-color: #cc1313;
   -moz-border-radius: 28px;
   -webkit-border-radius: 28px;
@@ -412,14 +412,14 @@ ul {
   text-decoration: none;
 }
 
-.thisButton:hover {
+.this-button:hover {
   color: #cc1313;
   background-color: #fff;
   border-color: #cc1313;
 }
 
 
-.myButton {
+.my-button {
   background-color: #fff;
   -moz-border-radius: 28px;
   -webkit-border-radius: 28px;
@@ -434,7 +434,7 @@ ul {
   text-decoration: none;
 }
 
-.myButton:hover {
+.my-button:hover {
   color: #fff;
   background-color: #cc1313;
   ;
@@ -444,4 +444,21 @@ ul {
 .buttcontrol {
   padding-right: 30px;
   padding-left: 30px;
+}
+.carousel-images{
+  max-width:100%;
+  max-height:auto;
+}
+
+.mid-text{
+  color: #cc1313;
+}
+.quotes{
+  text-align: right;
+}
+.copyright{
+  padding-top: 30px;
+}
+.color-choice{
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
